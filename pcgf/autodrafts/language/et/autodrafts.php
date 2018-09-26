@@ -1,12 +1,14 @@
 <?php
 
 /**
- * @author    MarkusWME <markuswme@pcgamingfreaks.at>
- * @copyright 2016 MarkusWME
- * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- * @version   1.0.0
  *
- * Estonian translation by phpBBeesti.net <et.translations@phpbbeesti.net>
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
+ *
+ * @author    MarkusWME <markuswme@pcgamingfreaks.at>
+ * @copyright 2016, 2017 MarkusWME
+ * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+ * @version   1.1.0
+ *
  */
 
 if (!defined('IN_PHPBB'))
@@ -63,4 +65,8 @@ $lang = array_merge($lang, array(
     'PCGF_DAY_APPENDIX_31' => '.',
     'PCGF_DAY_APPENDIX_AM' => 'e.l.',
     'PCGF_DAY_APPENDIX_PM' => 'p.l.',
+    // New language data since version 1.1.0
+    'PCGF_AUTODRAFT_SAVED'    => 'Automaatsed mustandid salvestatud!',
+    'PCGF_DRAFTS_SAVED_UNTIL' => 'Salvestatud kuni',
+    'PCGF_QUICKDRAFT_SAVED'   => 'Kiire mustand salvestatud!',
 ));
