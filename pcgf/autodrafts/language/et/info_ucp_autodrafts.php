@@ -1,6 +1,9 @@
 <?php
 
 /**
+ *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
+ *
  * @author    MarkusWME <markuswme@pcgamingfreaks.at>
  * @copyright 2017 MarkusWME
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -19,18 +22,18 @@ if (empty($lang) || !is_array($lang))
 
 // Merging language data for the UCP with the other language data
 $lang = array_merge($lang, array(
-    'UCP_PCGF_AUTODRAFTS'                                 => 'Auto Drafts',
-    'UCP_PCGF_AUTODRAFTS_EXPLAIN'                         => 'Your settings for the Auto Drafts can be adjusted here.',
-    'UCP_PCGF_AUTODRAFTS_DELETE_AFTER_SUBMISSION'         => 'Delete after submission',
-    'UCP_PCGF_AUTODRAFTS_DELETE_AFTER_SUBMISSION_EXPLAIN' => 'Defines if all drafts of a topic should be deleted after the submission of a post.',
-    'UCP_PCGF_AUTODRAFTS_DELETE_INTERVAL'                 => 'Delete interval',
-    'UCP_PCGF_AUTODRAFTS_DELETE_INTERVAL_EXPLAIN'         => 'This setting defines after which time drafts will be deleted automatically. To disable this function set the value to 0.',
-    'UCP_PCGF_AUTODRAFTS_INSERT_LAST'                     => 'Load last draft',
-    'UCP_PCGF_AUTODRAFTS_INSERT_LAST_EXPLAIN'             => 'Defines if the last draft should be loaded automatically.',
-    'UCP_PCGF_AUTODRAFTS_SAVE_INTERVAL'                   => 'Save interval',
-    'UCP_PCGF_AUTODRAFTS_SAVE_INTERVAL_EXPLAIN'           => 'This setting defines in which interval automatic drafts will be created. To disable Auto Drafts set this value to 0.',
-    'UCP_PCGF_AUTODRAFTS_SETTINGS_SAVED'                  => 'The settings have been saved successfully!',
-    'UCP_PCGF_AUTODRAFTS_SAVE_ERROR'                      => 'The settings could not be saved, please try again later!',
-    'UCP_PCGF_AUTODRAFTS_SAVED_DRAFTS'                    => 'Currently saved drafts',
-    'UCP_PCGF_AUTODRAFTS_CLEAR'                           => 'Delete all drafts',
+    'UCP_PCGF_AUTODRAFTS'                                 => 'Automaatsed mustandid',
+    'UCP_PCGF_AUTODRAFTS_EXPLAIN'                         => 'Siin saad määrata automaatsete mustandite seadeid.',
+    'UCP_PCGF_AUTODRAFTS_DELETE_AFTER_SUBMISSION'         => 'Kustuta pärast esitamist',
+    'UCP_PCGF_AUTODRAFTS_DELETE_AFTER_SUBMISSION_EXPLAIN' => 'Määrab, kas pärast esitamist tuleks kõik mustandid kustutada.',
+    'UCP_PCGF_AUTODRAFTS_DELETE_INTERVAL'                 => 'Kustutamise aeg',
+    'UCP_PCGF_AUTODRAFTS_DELETE_INTERVAL_EXPLAIN'         => 'See seade määrab pärast seda, kui mustandid kustutatakse automaatselt. Selle funktsiooni keelamiseks määrake väärtus 0.',
+    'UCP_PCGF_AUTODRAFTS_INSERT_LAST'                     => 'Laadi viimane mustand',
+    'UCP_PCGF_AUTODRAFTS_INSERT_LAST_EXPLAIN'             => 'Määrab, kas viimane mustand automaatselt laadida.',
+    'UCP_PCGF_AUTODRAFTS_SAVE_INTERVAL'                   => 'Salvestamise aeg',
+    'UCP_PCGF_AUTODRAFTS_SAVE_INTERVAL_EXPLAIN'           => 'See seade määrab, millise ajajooksul luuakse automaatne mustand. Automaatsete mustandite keelamiseks seadke see väärtus väärtuseks 0.',
+    'UCP_PCGF_AUTODRAFTS_SETTINGS_SAVED'                  => 'Seaded edukalt salvestatud!',
+    'UCP_PCGF_AUTODRAFTS_SAVE_ERROR'                      => 'Seadistusi ei saanud salvestada, proovige hiljem uuesti!',
+    'UCP_PCGF_AUTODRAFTS_SAVED_DRAFTS'                    => 'Hetkel salvestatud mustandid',
+    'UCP_PCGF_AUTODRAFTS_CLEAR'                           => 'Kustuta kõik mustandid',
 ));
